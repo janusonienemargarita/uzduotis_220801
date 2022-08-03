@@ -1,0 +1,139 @@
+body {
+    width: 30rem;
+    height: 50rem;
+    margin: auto;
+    padding: 1rem;
+    border: 2px dotted rgb(223, 97, 118);
+    font-style: oblique;
+    background-color: rgb(232, 243, 239);
+
+}
+
+header img {
+    height: 2rem;
+    padding: .5rem;
+}
+
+header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: left;
+    font-weight: 900;
+
+}
+
+h1 .ToDo {
+    color: blueviolet;
+}
+
+.top h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0;
+
+}
+
+.top {
+    width: 448px;
+    margin: auto;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: justify;
+    padding: 5px;
+}
+
+.text {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+
+
+.button {
+    width: 400px;
+    border: none;
+    top: 2px;
+    height: 37px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 5px;
+}
+
+.blue label {
+    color: rgb(129, 15, 15);
+    font-size: smaller;
+    text-align: center;
+    margin: auto;
+}
+
+.black {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.button-black {
+    width: 200px;
+    top: 2px;
+    height: 37px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(107, 104, 104);
+    border-radius: 5px;
+    margin: auto;
+    border-style: groove;
+
+}
+
+
+.completed {
+    display: inline-block;
+    padding: 10px;
+    height: 2rem;
+    margin-bottom: 10px;
+}
+
+.completed .checkbox {
+    margin-left: 80px;
+}
+
+input[type="checkbox"]:checked+label {
+    color: blue;
+    text-decoration: line-through;
+
+}
+
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+.wrapper {
+    align-items: center;
+    margin: auto;
+    background-color: aliceblue;
+}
+.wrapper .completed{
+    align-items: center;
+    margin: auto;
+    
+}
